@@ -4,6 +4,23 @@ A read-only, offline archive for your email. It copies mail from your mail
 server over IMAP, or imports a backup file, and gives you a local web UI to
 browse, search and open messages and attachments. It cannot send or receive mail.
 
+## Demo
+
+<video src="MessageLocal-demo-narrated.mp4" controls width="100%"></video>
+
+[Watch the demo video](MessageLocal-demo-narrated.mp4) (69 seconds)
+
+<table>
+  <tr>
+    <td align="center"><img src="images/1.png" width="640" height="369" alt="List view with a message and its photo attachment open"><br>List view</td>
+    <td align="center"><img src="images/2.png" width="636" height="367" alt="Map view showing the mailbox orb, lenses, branches, side panel and timeline"><br>Map view</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="images/3.png" width="637" height="368" alt="The Folders lens selected, with folders fanning out as branches"><br>Lenses</td>
+    <td align="center"><img src="images/4.png" width="638" height="368" alt="A message preview card with two photo thumbnails beside the side panel"><br>Message preview</td>
+  </tr>
+</table>
+
 ## Run
 
 ```
