@@ -1,0 +1,17 @@
+services:
+  messagelocal:
+    build: .
+    image: messagelocal
+    container_name: messagelocal
+    restart: unless-stopped
+    ports:
+      # Reachable only from this computer. Change to "9950:9950" to open it to
+      # your network (there is no login screen, so only do that on a network you trust).
+      - "127.0.0.1:9950:9950"
+    volumes:
+      # Your whole archive lives here: raw .eml files, the search index and the key.
+      - ./data:/data
+    # Optional: supply your own passphrase for encrypting saved mail passwords,
+    # so the key is not stored next to the data.
+    # environment:
+    #   MESSAGELOCAL_KEY: "a long passphrase"
